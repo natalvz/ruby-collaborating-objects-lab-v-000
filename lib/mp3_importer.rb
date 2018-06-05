@@ -7,7 +7,7 @@ class MP3Importer
   end 
   
   def files
-  @files ||= Dir(@path).select {|file|  
+  @files ||= Dir(@path).select {|song|  
   
   end 
 end

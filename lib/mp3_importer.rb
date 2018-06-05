@@ -7,6 +7,7 @@ class MP3Importer
   end 
   
   def files
-  @files ||= Dir(@path).select { |file| + '/lib/*.rb'].each {|file| require file }
+  @files ||= Dir(@path).select {|file|  
+  
   end 
 end

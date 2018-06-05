@@ -9,4 +9,6 @@ class MP3Importer
   def files
     Dir.entries(self.path).select {|file| file[/\.mp3$/]}
   end 
+  
+  def import
 end

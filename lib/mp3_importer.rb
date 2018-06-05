@@ -11,5 +11,5 @@ class MP3Importer
   end 
   
   def import
-    self.files.each {
+    self.files.each {|name|
 end
